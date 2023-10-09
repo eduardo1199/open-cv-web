@@ -13,7 +13,7 @@ import remarkGfm from 'remark-gfm'
 import { codeOfRegions, codeSlepQuadrant, fileStorageCode, follFillCode, invertQuadraticBiel, invertedPixelColor } from './constants'
 import Image from 'next/image'
 
-const Home: NextPage = () => {
+export default function Home() {
   return (
    <div className="w-screen h-screen overflow-x-hidden">
       <div className="flex w-full">
@@ -183,4 +183,3 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
