@@ -1,5 +1,3 @@
-import type { NextPage } from 'next'
-
 import Biel from '../../public/biel.png'
 import BielConvert from '../../public/biel_convert.png'
 import BielInvert from '../../public/biel_quadratic.png'
